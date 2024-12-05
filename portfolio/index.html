@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Jace Restaurant</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Header Section -->
+  <header>
+    <div class="logo">
+      <h1> jace Restaurant</h1>
+      <p>Delicious Food. Perfect Ambiance. Perfect spot.</p>
+    </div>
+    <nav>
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Menu</a></li>
+        <li><a href="#">About Us</a></li>
+        <li><a href="#">Contact</a></li>
+        <li><a href="#">Reservation</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="hero">
+    <div class="hero-content">
+      <h2>Welcome to Our Restaurant</h2>
+      <p>Experience the taste of tradition and innovation!</p>
+      <a href="#reservation" class="btn">Reserve a Table</a>
+    </div>
+  </section>
+
+  <!-- About Us Section -->
+  <section class="about-us">
+    <h2>About Us</h2>
+    <p>At jace Restaurant, we provide the finest gourmet experiences. Our chefs use the freshest ingredients to create mouth-watering dishes that everyone will love. </p>
+  </section>
+
+  <!-- Menu Section -->
+  <section class="menu">
+    <h2>Our Menu</h2>
+    <div class="menu-item">
+      <img src="spag.jpg" alt="Dish 1">
+      <div>
+        <h3> Spaghetti </h3>
+        <p>Happiness is a big bowl of pasta..</p>
+        <p class="price">$10.99</p>
+      </div>
+    </div>
+    <div class="menu-item">
+      <img src="chicken.jpg" alt="Dish 2">
+      <div>
+        <h3>Chicken </h3>
+        <p>Where every flavor tells a story.</p>
+        <p class="price">$14.99</p>
+      </div>
+    </div>
+    <!-- Add more menu items as needed -->
+  </section>
+
+  <!-- Reservation Section -->
+  <section id="reservation" class="reservation">
+    <h2>Make a Reservation</h2>
+    <form>
+      <label for="name">Your Name</label>
+      <input type="text" id="name" name="name" required>
+
+      <label for="email">Your Email</label>
+      <input type="email" id="email" name="email" required>
+
+      <label for="date">Reservation Date</label>
+      <input type="date" id="date" name="date" required>
+
+      <label for="time">Reservation Time</label>
+      <input type="time" id="time" name="time" required>
+
+      <button type="submit">Book Now</button>
+    </form>
+  </section>
+
+  <!-- Footer Section -->
+  <footer>
+    <div class="footer-content">
+      <p>&copy; 2024 Restaurant Name | All Rights Reserved</p>
+      <div class="social-links">
+        <a href="#">Facebook</a>
+        <a href="#">Instagram</a>
+        <a href="#">Twitter</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

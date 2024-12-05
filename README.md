@@ -1,3 +1,4 @@
+
 # ICP Simple Site Frontend Boilerplate
 
 This template gives you everything you need to build a full-stack Web3 application on the [Internet Computer](https://internetcomputer.org/).

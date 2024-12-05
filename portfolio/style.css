@@ -1,0 +1,192 @@
+/* General Styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Arial', sans-serif;
+  line-height: 1.6;
+  background-color: #0c0505;
+}
+
+a {
+  text-decoration: none;
+  color: #a81f1f;
+}
+
+/* Header */
+header {
+  background-color: #333;
+  color: white;
+  padding: 10px 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+}
+
+header .logo h1 {
+  font-size: 2rem;
+}
+
+header nav ul {
+  list-style: none;
+  display: flex;
+}
+
+header nav ul li {
+  margin-left: 20px;
+}
+
+header nav ul li a {
+  color: white;
+  font-size: 1rem;
+  font-weight: bold;
+}
+
+header nav ul li a:hover {
+  color: #ff9800;
+}
+
+/* Hero Section */
+.hero {
+  background: url('https://www.freepik.com/premium-ai-image/blurred-restaurant-background_78573726.htm') no-repeat center center/cover;
+  padding: 100px 0;
+  text-align: center;
+  color: white;
+}
+
+.hero h2 {
+  font-size: 3rem;
+}
+
+.hero p {
+  font-size: 1.25rem;
+  margin: 20px 0;
+}
+
+.hero .btn {
+  padding: 10px 20px;
+  background-color: #ff9800;
+  color: white;
+  border-radius: 5px;
+  font-size: 1rem;
+  font-weight: bold;
+}
+
+.hero .btn:hover {
+  background-color: #e68900;
+}
+
+/* About Us Section */
+.about-us {
+  padding: 50px 20px;
+  text-align: center;
+  background-color: #fff;
+}
+
+.about-us h2 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+
+.about-us p {
+  font-size: 1.125rem;
+  color: #666;
+}
+
+/* Menu Section */
+.menu {
+  padding: 50px 20px;
+  text-align: center;
+  background-color: #f9f9f9;
+}
+
+.menu h2 {
+  font-size: 2rem;
+  margin-bottom: 30px;
+}
+
+.menu-item {
+  display: flex;
+  justify-content: space-between;
+  margin: 20px 0;
+  border-bottom: 1px solid #ddd;
+  padding-bottom: 20px;
+}
+
+.menu-item img {
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+}
+
+.menu-item h3 {
+  font-size: 1.5rem;
+  color: #333;
+}
+
+.menu-item p {
+  color: #777;
+}
+
+.menu-item .price {
+  font-weight: bold;
+  color: #333;
+}
+
+/* Reservation Section */
+.reservation {
+  background-color: #ff9800;
+  color: white;
+  padding: 50px 20px;
+  text-align: center;
+}
+
+.reservation form {
+  max-width: 600px;
+  margin: 0 auto;
+  display: grid;
+  gap: 20px;
+}
+
+.reservation input,
+.reservation button {
+  padding: 15px;
+  font-size: 1rem;
+  border-radius: 5px;
+}
+
+.reservation input {
+  border: 1px solid #ddd;
+}
+
+.reservation button {
+  background-color: #333;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.reservation button:hover {
+  background-color: #444;
+}
+
+/* Footer */
+footer {
+  background-color: #333;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+footer .social-links a {
+  color: white;
+  margin: 0 10px;
+}
+
+footer .social-links a:hover {
+  color: #ff9800;
+}
